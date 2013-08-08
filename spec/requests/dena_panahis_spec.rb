@@ -11,7 +11,7 @@ describe "DenaPanahis" do
 
     it "should have the title 'Home'" do
       visit '/dena_panahi/home'
-      expect(page).to have_title("Dena Panahi Catering | Home")
+      expect(page).to have_title("Panahi Food Concepts | Home")
     end
   end
 
@@ -24,7 +24,7 @@ describe "DenaPanahis" do
     
     it "should have the title 'Help'" do
       visit '/dena_panahi/help'
-      expect(page).to have_title("Dena Panahi Catering | Help")
+      expect(page).to have_title("Panahi Food Concepts | Help")
     end
   end
 
@@ -37,7 +37,7 @@ describe "DenaPanahis" do
     
     it "should have the title 'Over Ons'" do
       visit '/dena_panahi/about'
-      expect(page).to have_title("Dena Panahi Catering | Over Ons")
+      expect(page).to have_title("Panahi Food Concepts | Over Ons")
     end
   end
 end
