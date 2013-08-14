@@ -1,0 +1,13 @@
+Deze is een test text waarme ik de vim wil proberen.
+1-23.jpg
+Gemfile
+config
+config.ru
+db
+foo.txt
+lib
+log
+public
+spec
+tmp
+vendor

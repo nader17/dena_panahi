@@ -1,8 +1,5 @@
 DenaPanahi::Application.routes.draw do
-  get "users/new"
-
-  root 'dena_panahi#home'
-  match '/signup',  to: 'users#new',          via: 'get'
+  root 'dena_panahi#home', 
   match '/help',    to: 'dena_panahi#help',   via: 'get'
   match '/about',   to: 'dena_panahi#about',  via: 'get'
   match '/contact', to: 'dena_panahi#contact', via: 'get' 
