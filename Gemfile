@@ -31,4 +31,7 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
+#gem 'devise', '3.0.0.rc'
+gem 'protected_attributes'
 
+gem 'bcrypt-ruby', git: 'git@github.com:hananamar/bcrypt-ruby.git', :require => 'bcrypt'
