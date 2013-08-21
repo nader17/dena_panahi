@@ -35,5 +35,5 @@ end
 #gem 'devise', '3.0.0.rc'
 gem 'protected_attributes'
 
-gem 'bcrypt-ruby'
+gem 'bcrypt-ruby', '~> 3.0.0'
 #, git: 'git@github.com:hananamar/bcrypt-ruby.git', :require => 'bcrypt'
